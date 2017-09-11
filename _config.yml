@@ -17,7 +17,7 @@ title: Helge Dietert
 email: helge.dietert@math.univ-paris-diderot.fr
 description: > # this means to ignore newlines until "baseurl:"
   Personal webpage of Helge Dietert
-baseurl: "https://hdietert.github.io" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hdietert.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
