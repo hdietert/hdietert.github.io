@@ -19,4 +19,4 @@ model][kuramoto].
 
 [part-3]: {% post_url 2014-03-12-part-3-essay %}
 [doi-phd]: https://doi.org/10.17863/CAM.7765
-[kuramoto]: {% link kuramoto %}
+[kuramoto]: {% link kuramoto.md %}
