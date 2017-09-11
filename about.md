@@ -4,7 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-![Picture of myself]({{ "/static/me.png" | prepend: site.baseurl }})
+![Picture of myself](/static/me.png)
 
 I am currently a postdoc under [David Gérard-Varet][dgv] and [Laurent
 Desvilletes][ld]. Before that I obtained my PhD under the supervision
