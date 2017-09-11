@@ -1,0 +1,5 @@
+/* Put the controls a bit tighter */
+.form-horizontal > div {
+    padding : 0px;
+    margin : 0px;
+}

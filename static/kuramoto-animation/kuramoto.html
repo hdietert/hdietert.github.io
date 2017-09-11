@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Kuramoto model</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+	integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+	crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+	  integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+	  crossorigin="anonymous"></script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"
+	  crossorigin="anonymous"></script>
+  <script src="flot/jquery.flot.js"></script>
+  <script src="flot/jquery.flot.axislabels.js"></script>
+  <link rel="stylesheet"
+	href="kuramoto.css">
+  <script src="randgen.js"></script>
+  <script src="numbers.min.js"></script>
+  <script src="gauss-penrose.js"></script>
+  <script src="model.js"></script>
+  <script src="kuramoto.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse"
+		data-target="#overall-navbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+	</button>
+	<a class="navbar-brand" data-toggle="tab" href="#running-model">Kuramoto model</a>
+      </div>
+      <div class="collapse navbar-collapse" id="overall-navbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a data-toggle="tab" href="#running-model">Running the model</a></li>
+        <li><a data-toggle="tab" href="#about-model">About the model</a></li>
+        <li><a data-toggle="tab" href="#th-results">Results</a></li>
+        <li><a data-toggle="tab" href="#about-page">About the page</a></li>
+      </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="tab-content">
+    <div id="running-model" class="tab-pane fade in active container-fluid">
+      <div class="row">
+ 	<div class="col-sm-4 col-lg-3 well">
+	  <div class="panel-group" id="sim-setting">
+	    <div class="panel" id="basic-parameter">
+	      <div class="panel-heading">
+		<h4 class="panel-title">
+		  <a data-toggle="collapse"
+		     href="#basic-parameter-collapse">
+		    Basic parameter
+		  </a>
+		</h4>
+	      </div>
+	      <div id="basic-parameter-collapse" class="panel-collapse collapse in">
+		<div class="panel-body">
+		  <form class="form-horizontal">
+		    <label class="control-label" for="system-size-slider">
+		      System size</label>
+		    <div class="form-group">
+		      <div class="col-sm-8">
+			<input name="system-size-slider" type="range" class="form-control"
+			       min="2" max="1000" step="1" value="50">
+		      </div>
+		      <div class="col-sm-4">
+			<input name="system-size-number" type="number" class="form-control"
+			       min="2" max="10000" step="1" value="50">
+		      </div>
+		    </div>
+		    <label class="control-label" for="coupling-k-slider">Coupling constant</label>
+		    <div class="form-group">
+		      <div class="col-sm-8">
+			<input name="coupling-k-slider" type="range" class="form-control"
+			       min="0" max="10" value="1" step="0.01">
+		      </div>
+		      <div class="col-sm-4">
+			<input name="coupling-k-number" type="number" class="form-control"
+			       min="0" max="100" value="1" step="0.01">
+		      </div>
+		    </div>
+		    <label class="control-label" for="phasa-shift-slider">Phase shift</label>
+		    <div class="form-group">
+		      <div class="col-sm-8">
+			<input name="phase-shift-slider" type="range" class="form-control"
+			       min="-3.1415926" max="3.141592610" value="0" step="0.01">
+		      </div>
+		      <div class="col-sm-4">
+			<input name="phase-shift-number" type="number" class="form-control"
+			       min="-3.1415926" max="3.141592610" value="0" step="0.01">
+		      </div>
+		    </div>
+		    <label class="control-label" for="frequency-distribution">
+		      Frequency distribution</label>
+		    <div class="form-group">
+		      <div class="col-sm-12">
+			<select class="form-control" name="frequency-distribution">
+			  <option value="gauss" selected="selected">Gaussian</option>
+			  <option value="bi-cauchy">Bi-Cauchy</option>
+			</select>
+		      </div>
+		    </div>
+		    <div class="form-group">
+		      <div class="col-sm-12">
+			<label><input type="checkbox" name="add-noise"> Add noise</label>
+		      </div>
+		    </div>
+		    <label class="control-label" for="noise-strength-slider">Noise strength (standard deviation)</label>
+		    <div class="form-group">
+		      <div class="col-sm-8">
+			<input name="noise-strength-slider" type="range" class="form-control"
+			       disabled
+			       min="0" max="1" value="0" step="0.01">
+		      </div>
+		      <div class="col-sm-4">
+			<input name="noise-strength-number" type="number" class="form-control"
+			       disabled
+			       min="0" max="1" value="0" step="0.01">
+		      </div>
+		    </div>
+		  </form>
+		</div>
+	      </div>
+	    </div>
+	    <div class="panel" id="distribution-parameter-gauss">
+	      <div class="panel-heading">
+		<h4 class="panel-title">
+		  <a data-toggle="collapse"
+		     href="#distribution-parameter-gauss-collapse">
+		    Distribution parameter
+		  </a>
+		</h4>
+	      </div>
+	      <div id="distribution-parameter-gauss-collapse" class="panel-collapse collapse">
+		<div class="panel-body">
+		  <form class="form-horizontal">
+		    <label class="control-label" for="gauss-mean-slider">
+		      Mean frequency</label>
+		    <div class="form-group">
+		      <div class="col-sm-8">
+			<input name="gauss-mean-slider" type="range" class="form-control"
+			       min="-10" max="10" step="0.01" value="0">
+		      </div>
+		      <div class="col-sm-4">
+			<input name="gauss-mean-number" type="number" class="form-control"
+			       min="-10" max="10" step="0.01" value="0">
+		      </div>
+		    </div>
+		    <label class="control-label" for="gauss-stdev-slider">
+		      Standard deviation</label>
+		    <div class="form-group">
+		      <div class="col-sm-8">
+			<input name="gauss-stdev-slider" type="range" class="form-control"
+			       min="0" max="10" step="0.01" value="1">
+		      </div>
+		      <div class="col-sm-4">
+			<input name="gauss-stdev-number" type="number" class="form-control"
+			       min="0" max="10" step="0.01" value="1">
+		      </div>
+		    </div>
+		  </form>
+		</div>
+	      </div>
+	    </div>
+	    <div class="panel hidden" id="distribution-parameter-bi-cauchy">
+	      <div class="panel-heading">
+		<h4 class="panel-title">
+		  <a data-toggle="collapse"
+		     href="#distribution-parameter-bi-cauchy-collapse">
+		    Distribution parameter
+		  </a>
+		</h4>
+	      </div>
+	      <div id="distribution-parameter-bi-cauchy-collapse" class="panel-collapse collapse">
+		<div class="panel-body">
+		  <form class="form-horizontal">
+		    <label class="control-label" for="bi-cauchy-rel-size-1-slider">
+		      Relative size of first population</label>
+		    <div class="form-group">
+		      <div class="col-sm-8">
+			<input name="bi-cauchy-rel-size-1-slider" type="range" class="form-control"
+			       min="0" max="1" step="0.01" value="0.5">
+		      </div>
+		      <div class="col-sm-4">
+			<input name="bi-cauchy-rel-size-1-number" type="number" class="form-control"
+			       min="0" max="1" step="0.01" value="0.5">
+		      </div>
+		    </div>
+		    <label class="control-label" for="bi-cauchy-mean-1-slider">
+		      Mean frequency of first population</label>
+		    <div class="form-group">
+		      <div class="col-sm-8">
+			<input name="bi-cauchy-mean-1-slider" type="range" class="form-control"
+			       min="-10" max="10" step="0.01" value="0">
+		      </div>
+		      <div class="col-sm-4">
+			<input name="bi-cauchy-mean-1-number" type="number" class="form-control"
+			       min="-10" max="10" step="0.01" value="0">
+		      </div>
+		    </div>
+		    <label class="control-label" for="bi-cauchy-scale-1-slider">
+		      Scale parameter for first population</label>
+		    <div class="form-group">
+		      <div class="col-sm-8">
+			<input name="bi-cauchy-scale-1-slider" type="range" class="form-control"
+			       min="0.05" max="10" step="0.01" value="1">
+		      </div>
+		      <div class="col-sm-4">
+			<input name="bi-cauchy-scale-1-number" type="number" class="form-control"
+			       min="0.05" max="10" step="0.01" value="1">
+		      </div>
+		    </div>
+		    <label class="control-label" for="bi-cauchy-mean-2-slider">
+		      Mean frequency of second population</label>
+		    <div class="form-group">
+		      <div class="col-sm-8">
+			<input name="bi-cauchy-mean-2-slider" type="range" class="form-control"
+			       min="-10" max="10" step="0.01" value="0">
+		      </div>
+		      <div class="col-sm-4">
+			<input name="bi-cauchy-mean-2-number" type="number" class="form-control"
+			       min="-10" max="10" step="0.01" value="0">
+		      </div>
+		    </div>
+		    <label class="control-label" for="bi-cauchy-scale-2-slider">
+		      Scale parameter for second population</label>
+		    <div class="form-group">
+		      <div class="col-sm-8">
+			<input name="bi-cauchy-scale-2-slider" type="range" class="form-control"
+			       min="0.05" max="10" step="0.01" value="1">
+		      </div>
+		      <div class="col-sm-4">
+			<input name="bi-cauchy-scale-2-number" type="number" class="form-control"
+			       min="0.05" max="10" step="0.01" value="1">
+		      </div>
+		    </div>
+		  </form>
+		</div>
+	      </div>
+	    </div>
+	    <div class="panel" id="perturbation-setting">
+	      <div class="panel-heading">
+		<h4 class="panel-title">
+		  <a data-toggle="collapse"
+		     href="#perturbation-setting-collapse">
+		    Perturbation parameter
+		  </a>
+		</h4>
+	      </div>
+	      <div id="perturbation-setting-collapse" class="panel-collapse collapse">
+		<div class="panel-body">
+		  <form class="form-horizontal">
+		    <label class="control-label" for="perturbation-angle-slider">
+		      Target angle</label>
+		    <div class="form-group">
+		      <div class="col-sm-8">
+			<input name="perturbation-angle-slider" type="range" class="form-control"
+			       min="-3.1415926" max="3.141592610" value="0" step="0.01">
+		      </div>
+		      <div class="col-sm-4">
+			<input name="perturbation-angle-number" type="number" class="form-control"
+			       min="-3.1415926" max="3.141592610" value="0" step="0.01">
+		      </div>
+		    </div>
+		    <label class="control-label" for="perturbation-strength-slider">
+		      Strength</label>
+		    <div class="form-group">
+		      <div class="col-sm-8">
+			<input name="perturbation-strength-slider" type="range" class="form-control"
+			       min="0" max="1" step="0.01" value="0.5">
+		      </div>
+		      <div class="col-sm-4">
+			<input name="perturbation-strength-number" type="number" class="form-control"
+			       min="0" max="1" step="0.01" value="0.5">
+		      </div>
+		    </div>
+		  </form>
+		</div>
+	      </div>
+	    </div>
+	    <div class="panel" id="numerical-setting">
+	      <div class="panel-heading">
+		<h4 class="panel-title">
+		  <a data-toggle="collapse"
+		     href="#numerical-setting-collapse">
+		    Numerical settings
+		  </a>
+		</h4>
+	      </div>
+	      <div id="numerical-setting-collapse" class="panel-collapse collapse">
+		<div class="panel-body">
+		  <form class="form-horizontal">
+		    <label class="control-label" for="update-interval-slider">
+		      Update interval (ms)</label>
+		    <div class="form-group">
+		      <div class="col-sm-8">
+			<input name="update-interval-slider" type="range" class="form-control"
+			       min="50" max="5000" value="100" step="1">
+		      </div>
+		      <div class="col-sm-4">
+			<input name="update-interval-number" type="number" class="form-control"
+			       min="50" max="5000" value="100" step="1">
+		      </div>
+		    </div>
+		    <label class="control-label" for="max-step-size-slider">
+		      Maximal step size</label>
+		    <div class="form-group">
+		      <div class="col-sm-8">
+			<input name="max-step-size-slider" type="range" class="form-control"
+			       min="0.001" max="1.0" value="0.01" step="0.001">
+		      </div>
+		      <div class="col-sm-4">
+			<input name="max-step-size-number" type="number" class="form-control"
+			       min="0.001" max="1.0" value="0.01" step="0.001">
+		      </div>
+		    </div>
+		  </form>
+		</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<div class="col-sm-8 col-lg-9">
+	  <form class="form-horizontal" id="simulation-controls">
+	    <div class="btn-group btn-group-justified" style="margin-bottom:1em">
+	      <div class="btn-group" role="group">
+		<button id="sim-start-pause" type="button" class="btn btn-primary">
+		  Start
+		</button>
+	      </div>
+	      <div class="btn-group" role="group">
+		<button id="sim-reset" type="button" class="btn btn-primary">
+		  Reset
+		</button>
+	      </div>
+	      <div class="btn-group" role="group">
+		<button id="add-perturbation" type="button" class="btn btn-primary">
+		  Add perturbation
+		</button>
+	      </div>
+	    </div>
+	    <div class="form-group">
+	      <p class="col-sm-2">
+		<label class="control-label" for="simulation-speed">Speed </label>
+		(<span id="simulation-speed-value-output">1</span>)
+	      </p>
+	      <div class="col-sm-8">
+		<input name="simulation-speed" type="range" class="form-control"
+		       min="0" max="10" value="1" step="0.01">
+	      </div>
+	      <p class="col-sm-2">
+		<label class="control-label">Time </label>
+		<span id="simulation-time-output">0</span>
+	      </p>
+	    </div>
+	  </form>
+	  <div class="row">
+	    <div class="col-sm-3" style="min-width:400px">
+	      <h3 style="text-align: center">Oscillators</h3>
+	      <div id="sim-circle-placeholder" style="width:400px;height:400px"></div>
+	    </div>
+	    <div class="col-sm-3" style="min-width:400px">
+	      <h3 style="text-align: center">Marginals</h3>
+	      <div id="sim-phase-placeholder" style="width:400px;height:200px"></div>
+	      <div id="sim-freq-placeholder" style="width:400px;height:200px"></div>
+	    </div>
+	    <div class="col-sm-3" style="min-width:400px">
+	      <h3 style="text-align: center">Order parameter</h3>
+	      <div id="sim-order-placeholder" style="width:400px;height:300px"></div>
+	    </div>
+	    <div class="col-sm-3" style="min-width:400px">
+	      <h3 style="text-align: center">Penrose diagram</h3>
+	      <div id="penrose-placeholder" style="width:400px;height:300px"></div>
+	    </div>
+	  </div>
+	</div>
+      </div>
+    </div>
+    <div id="about-model" class="tab-pane fade container" style="max-width:50em">
+      <h1>The Kuramoto model</h1>
+      <h2>Understanding synchronisation</h2>
+      <p>If we have a large system of oscillators, they quite often
+	synchronises, as the clapping of many people sometimes
+	synchronises without any external source. Some simple examples
+	are:</p>
+      <ul>
+	<li>The blinking at fireflies:
+	  <a href="https://www.youtube.com/watch?v=a-Vy7NZTGos">Youtube video</a>
+	</li>
+	<li>Pendulums on a common table:
+	  <a href="https://www.youtube.com/watch?v=4L7BnVScTUQ">Youtube video</a>
+      </ul>
+      <p>Following A.T. Winfree, Y. Kuramoto suggest in 1975 a simple
+	tractable <a href="http://dx.doi.org/10.1007/BFb0013365">mathematical
+	model</a>, which already shows a remarkable rich behaviour and
+	which has found lots of applications. For further information,
+	see the review papers:</p>
+      <ul>
+	<li><a href="http://dx.doi.org/10.1016/S0167-2789(00)00094-4">Steven H. Strogatz, 2000</a></li>
+	<li><a href="http://dx.doi.org/10.1103/RevModPhys.77.137">Juan
+	    A. Acebrón, L. L. Bonilla, Conrad J. Pérez Vicente, Félix
+	    Ritort and Renato Spigler, 2005</a></li>
+	<li><a href="http://dx.doi.org/10.1063/1.4922971">Arkady Pikovsky and Michael Rosenblum, 2015</a></li>
+      </ul>
+      <h2>Mathematical model</h2>
+      <p>In the model we have a finite number of oscillator (\(N\))
+	and each oscillator \(i=1,\dots,N\) has a natural frequency
+	\(\omega_i\) and a phase angle \(\theta_i\).</p>
+      <p>With the coupling the evolution is now given by
+	\[ \frac{d}{dt} \theta_i = \omega_i + \frac{K}{N} \sum_{j=1}^{N} \sin(\theta_j-\theta_i-\alpha) + \xi_i \]
+	for \(i=1,\dots,N\), where \(K\) is the coupling constant,
+	\(\alpha\) is the phase delay and \(\xi_i\) is standard white
+	noise.</p>
+      <p>The noise term is only taken into account, when the checkbox
+	is selected and can be scaled such that the standard deviation
+	over a unit time interval is the given value.</p>
+      <p>By considering \(e^{i\theta}\) we can visualise the evolution
+	on the unit circle which is shown in the simulation along the
+	histogram of the phase angles.</p>
+      <h3>Order parameter</h3>
+      <p>The interaction is given through the so-called order parameter
+	\[ r = \sum_{j=0}^{N} e^{i\theta_j}, \]
+	which is also used to measure the degree of synchronisation.</p>
+      <p>In the plot along the circle, we also plot the order
+	parameter. In fact in this representation, it is just the mean of
+	all the oscillators.</p>
+      <h3>Frequency distribution</h3>
+      <p>The natural frequencies of each oscillator are drawn at the
+	beginning from the chosen distribution.</p>
+      <p>The Bi-Cauchy distribution allows the mixture of two Cauchy
+	distributions with the given mean and scale factor \(\gamma\).</p>
+      <p>In the histogram plot of the natural frequencies the two
+	outermost bins also contain all smaller and larger, respecively,
+	frequencies.</p>
+      <h3>Adding a perturbation</h3>
+      <p>In order to observe the decay of a perturbation, we allow the
+	creation of a perturbation towards a given angle with a given
+	strength. For this we change the phase angle of every oscillator as
+	\[ \theta \rightarrow \theta + D \sin(\beta-\theta) \]
+	where \(D\) is the perturbation strength and \(\beta\) is
+	the target angle.
+      </p>
+    </div>
+    <div id="th-results" class="tab-pane fade container" style="max-width:50em">
+      <h1>Theoretical results</h1>
+      <p>For a general mathematical perspective, the following two
+	review papers give a good overview:</p>
+      <ul>
+	<li><a href="http://dx.doi.org/10.1016/S0167-2789(00)00094-4">Steven H. Strogatz, 2000</a></li>
+	<li><a href="http://dx.doi.org/10.1063/1.4922971">Arkady Pikovsky and Michael Rosenblum, 2015</a></li>
+      </ul>
+      <p>For the Bi-Cauchy distribution, a formal calculation can be
+	done, see the
+	<a href="http://dx.doi.org/10.1103/PhysRevE.79.026204">paper</a>.</p>
+      <h2>Landau damping</h2>
+      <p>Even though there is no dissipation term, the incoherent
+	state appears to be stable, if the coupling constant is small
+	enough. This effect was first observed by Landau in 1946 for
+	plasmas and works through phase mixing.</p>
+      <p>In 1992,
+	<a href="http://dx.doi.org/10.1103/PhysRevLett.68.2730">Steven
+	  H. Strogatz, Renato E. Mirollo and Paul C. Matthews</a>
+	noted that the same phenomenon applies in this model.</p>
+      <p>Understanding Landau damping, is an active area of
+	mathematical research with recent breakthroughs. In
+	<a href="http://dx.doi.org/10.1016/j.matpur.2015.11.001">my
+	first work</a>, I understood the behaviour around the
+	incoherent state showing Landau damping.</p>
+      <p>Together with Bastien Fernandez, David Gérard-Varet, we also
+	understood Landau damping around so-called partially locked
+	states.</p>
+      <h2>Penrose diagram</h2>
+      <p>With the Landau damping, we can reduce the stability to the
+	existence of growing modes. The eigenvalue equation for the
+	incoherent state can be expressed as
+	\[ \mathcal{L} \hat{g}(\lambda) = \frac{2 e^{i\alpha}}{K}. \]
+	For imposing stability we must ensure that no such solution
+	exists for \(\Re \lambda \ge 0\).</p>
+      <p>The LHS is the image of the RHP \(\{\lambda : \Re \lambda \ge
+	0\}\) and thus its image can be determined by the boundary
+	value (argument principle). This leads to the Penrose
+	condition in the Vlasov-Poisson equation and gives a nice
+	visual way to determine and understand the stability.</p>
+    </div>
+    <div id="about-page" class="tab-pane fade container" style="max-width:50em">
+      <h1>About this page</h1>
+      <p style="font-style:italic">
+	Created by Helge Dietert, 2016
+      </p>
+      <p>This is a simple fun project to visualise the Kuramoto
+	model. It has not been validated and can contain severe
+	bugs. I still hope it is useful and interesting.</p>
+      <p>I am looking forward to any kind of feedback and comments!
+	Please email me at USER@DOMAIN with USER=H.G.W.Dietert and
+	DOMAIN=maths.cam.ac.uk.</p>
+      <p>The page consists of hand-written HTML and Javscript code and
+	does not run anything on a server. Hence once loaded or saved,
+	it should work without any Internet connection. Hopefully, it
+	works in your browser, but please note that I only tested it
+	with a recent version of Firefox.</p>
+      <p>Feel free to look at the sources! If you find any
+	improvements or suggestions, I would be delighted if you share
+	them with me (e.g. how to make the control sliders nicer). For
+	serious numerical studies, I, however, suggest that you use a
+	proper framework with a standard ODE solver,
+	like <a href="https://www.scipy.org/">scipy</a> with
+	<a href="http://docs.scipy.org/doc/scipy/reference/integrate.html">scipy.integrate</a>.
+      <h2>Numerical solution</h2>
+      <p>I implemented a simple forward Euler scheme (mostly in order
+	to also support noise). The implementation is not tested (even
+	though it looks plausible) and there is no validation or
+	adaptation of the step size.</p>
+      <h2>Used libraries</h2>
+      <p>This was only possible through using quite nice open source
+	libraries:</p>
+      <ul>
+	<li>
+	  <a href="https://jquery.com/">jQuery</a>: Javascript framework (MIT License)
+	</li>
+	<li>
+	  <a href="http://getbootstrap.com/">Bootstrap</a>: Layout framework (MIT License)
+	</li>
+	<li>
+	  <a href="http://www.flotcharts.org/">Flot</a>: Plotting
+	  library (MIT License) in addition
+	  with <a href="http://github.com/markrcote/flot-axislabels">axis
+	    labels plugin</a> (MIT License)
+	</li>
+	<li>
+	  <a href="https://github.com/robbrit/randgen">Randgen</a>:
+	  Creating random numbers in javascript (MIT License)
+	</li>
+	<li>
+	  <a href="https://www.mathjax.org">MathJax</a>: Displaying
+	  equations (Apache License, Version 2.0)
+	</li>
+      </ul>
+      <p>I have not tested all the alternatives and also the usage
+	could probably optimised, e.g. I just redraw the whole plot
+	every time. If you are interested, just look at the source
+	code and I would happy to hear any comments or
+	suggestions.</p>
+      <p>For example, there are lots of possible plotting
+	solutions: <a href="https://en.wikipedia.org/wiki/Comparison_of_JavaScript_charting_frameworks">Comparison
+	at Wikipedia</a>
+    </div>
+  </div>
+</body>
+</html>
