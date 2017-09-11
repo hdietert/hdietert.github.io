@@ -1,0 +1,9 @@
+---
+layout: page
+title: Notes
+---
+
+{% for post in site.posts %}
+  <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+  <p><time>{{ post.date | date: "%d %b %Y" }}</time> {{ post.summary }}</p>
+{% endfor %}
