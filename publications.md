@@ -6,6 +6,9 @@ permalink: /publications/
 
 ## Preprints
 
+- Dalibard, A.-L., Dietert, H., Gérard-Varet, D. and Marbach F.
+  *High frequency analysis of the unsteady Interactive Boundary Layer model*,
+  [arXiv](https://arxiv.org/abs/1710.04510)
 - Dietert, H. *Stability of partially locked states in the Kuramoto
   model through Landau damping with Sobolev regularity*
   [arXiv](https://arxiv.org/abs/1707.03475) (submitted)
