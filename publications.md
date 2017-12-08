@@ -8,20 +8,21 @@ permalink: /publications/
 
 - Dalibard, A.-L., Dietert, H., Gérard-Varet, D. and Marbach F.
   *High frequency analysis of the unsteady Interactive Boundary Layer model*,
-  [arXiv](https://arxiv.org/abs/1710.04510)
+  [arXiv](https://arxiv.org/abs/1710.04510) (submitted)
 - Dietert, H. *Stability of partially locked states in the Kuramoto
   model through Landau damping with Sobolev regularity*
   [arXiv](https://arxiv.org/abs/1707.03475) (submitted)
 - Dietert, H., Fernandez, B., Gérard-Varet, D. *Landau damping to
   partially locked states in the Kuramoto model*
-  [arXiv](https://arxiv.org/abs/1606.04470) (accepted)
+  [arXiv](https://arxiv.org/abs/1606.04470) (accepted to Comm. Pure Appl. Math.)
 - Dietert, H., Evans, J. and Holding, T. *Convergence to equilibrium
   for the kinetic Fokker-Planck equation on the torus*
-  [arXiv](http://arxiv.org/abs/1506.06173) (accepted)
+  [arXiv](http://arxiv.org/abs/1506.06173) (accepted to Kinet. Relat. Model.)
 - Kashlak, A. B., Devane, E., Dietert, H. and Jackson, H. *Markov
   models for ocular fixation locations in the presence and absence of
   colour*
-  [arXiv](https://arxiv.org/abs/1604.06335) (accepted)
+  [arXiv](https://arxiv.org/abs/1604.06335) (accepted to the Journal of the Royal Statistical Society: Series C
+  (Applied Statistics))
 
 ## Published
 - Dietert, H., Keller, J., Troppmann, S. *An invariant class of wave
