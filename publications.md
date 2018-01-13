@@ -6,6 +6,8 @@ permalink: /publications/
 
 ## Preprints
 
+- Dietert, H., Fernandez, B. *The mathematics of asymptotic stability in the Kuramoto model*
+  [arXiv](https://arxiv.org/abs/1801.01309)
 - Dalibard, A.-L., Dietert, H., Gérard-Varet, D. and Marbach F.
   *High frequency analysis of the unsteady Interactive Boundary Layer model*,
   [arXiv](https://arxiv.org/abs/1710.04510) (submitted)
@@ -18,13 +20,14 @@ permalink: /publications/
 - Dietert, H., Evans, J. and Holding, T. *Convergence to equilibrium
   for the kinetic Fokker-Planck equation on the torus*
   [arXiv](http://arxiv.org/abs/1506.06173) (accepted to Kinet. Relat. Model.)
-- Kashlak, A. B., Devane, E., Dietert, H. and Jackson, H. *Markov
-  models for ocular fixation locations in the presence and absence of
-  colour*
-  [arXiv](https://arxiv.org/abs/1604.06335) (accepted to the Journal of the Royal Statistical Society: Series C
-  (Applied Statistics))
 
 ## Published
+- Kashlak, A. B., Devane, E., Dietert, H. and Jackson, H. *Markov
+  models for ocular fixation locations in the presence and absence of
+  colour*. Journal of the Royal Statistical Society: Series C (Applied
+  Statistics), 67(1), pp.201–215.
+  [DOI](https://doi.org/10.1111/rssc.12223)
+  [arXiv](https://arxiv.org/abs/1604.06335)
 - Dietert, H., Keller, J., Troppmann, S. *An invariant class of wave
   packets for the Wigner transform*. J. Math. Anal. Appl. 450 (2017),
   no. 2, 1317–1332.
