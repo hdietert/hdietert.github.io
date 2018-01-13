@@ -38,6 +38,7 @@ permalink: /publications/
   model* J. Math. Pures Appl. 105 (2016), no. 4, 451-489
   [DOI](http://dx.doi.org/10.1016/j.matpur.2015.11.001)
   [arXiv](http://arxiv.org/abs/1411.3752)
+  [MR](http://www.ams.org/mathscinet-getitem?mr=3471147)
 - Dietert, H. *Characterisation of gradient flows on finite state
   Markov chains* Electron. Commun. Probab. 20 (2015), no. 29, 8 pp.
   [DOI](http://dx.doi.org/10.1214/ECP.v20-3521)
