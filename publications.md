@@ -14,14 +14,16 @@ permalink: /publications/
 - Dietert, H. *Stability of partially locked states in the Kuramoto
   model through Landau damping with Sobolev regularity*
   [arXiv](https://arxiv.org/abs/1707.03475) (submitted)
-- Dietert, H., Fernandez, B., Gérard-Varet, D. *Landau damping to
-  partially locked states in the Kuramoto model*
-  [arXiv](https://arxiv.org/abs/1606.04470) (accepted to Comm. Pure Appl. Math.)
 - Dietert, H., Evans, J. and Holding, T. *Convergence to equilibrium
   for the kinetic Fokker-Planck equation on the torus*
   [arXiv](http://arxiv.org/abs/1506.06173) (accepted to Kinet. Relat. Model.)
 
 ## Published
+- Dietert, H., Fernandez, B., Gérard-Varet, D. *Landau damping to
+  partially locked states in the Kuramoto model* Comm. Pure
+  Appl. Math. (2018)
+  [DOI](https://doi.org/10.1002/cpa.21741)
+  [arXiv](https://arxiv.org/abs/1606.04470)
 - Kashlak, A. B., Devane, E., Dietert, H. and Jackson, H. *Markov
   models for ocular fixation locations in the presence and absence of
   colour*. Journal of the Royal Statistical Society: Series C (Applied
@@ -29,7 +31,7 @@ permalink: /publications/
   [DOI](https://doi.org/10.1111/rssc.12223)
   [arXiv](https://arxiv.org/abs/1604.06335)
 - Dietert, H., Keller, J., Troppmann, S. *An invariant class of wave
-  packets for the Wigner transform*. J. Math. Anal. Appl. 450 (2017),
+  packets for the Wigner transform* J. Math. Anal. Appl. 450 (2017),
   no. 2, 1317–1332.
   [DOI](https://doi.org/10.1016/j.jmaa.2016.12.041)
   [arXiv](https://arxiv.org/abs/1505.06192)
