@@ -26,7 +26,7 @@ permalink: /publications/
   [arXiv](https://arxiv.org/abs/1606.04470)
 - Kashlak, A. B., Devane, E., Dietert, H. and Jackson, H. *Markov
   models for ocular fixation locations in the presence and absence of
-  colour*. Journal of the Royal Statistical Society: Series C (Applied
+  colour* Journal of the Royal Statistical Society: Series C (Applied
   Statistics), 67(1), pp.201–215.
   [DOI](https://doi.org/10.1111/rssc.12223)
   [arXiv](https://arxiv.org/abs/1604.06335)
