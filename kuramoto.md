@@ -12,4 +12,6 @@ have developed an [interactive introduction][kuramoto-intro].
 Mathematically, I focus on understanding the Landau damping like
 behaviour in this model.
 
-[kuramoto-intro]: {% post_url 2016-04-20-kuramoto-animation %}
+For an introduction, I developed an
+[interactive website.]({{ "/static/kuramoto-animation/kuramoto.html" | prepend : site.baseurl }})
+(Announcement [kuramoto-intro]: {% post_url 2016-04-20-kuramoto-animation %}).
