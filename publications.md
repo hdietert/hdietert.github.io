@@ -6,6 +6,10 @@ permalink: /publications/
 
 ## Preprints
 
+- Daus, E., Desvillettes, L., Dietert, H.. *About the entropic
+  structure of detailed balanced multi-species cross-diffusion
+  equations*
+  [arXiv](https://arxiv.org/abs/1803.09808)
 - Dietert, H., Fernandez, B. *The mathematics of asymptotic stability in the Kuramoto model*
   [arXiv](https://arxiv.org/abs/1801.01309)
 - Dalibard, A.-L., Dietert, H., Gérard-Varet, D. and Marbach F.
