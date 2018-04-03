@@ -25,14 +25,14 @@ permalink: /publications/
 ## Published
 - Dietert, H., Fernandez, B., Gérard-Varet, D. *Landau damping to
   partially locked states in the Kuramoto model* Comm. Pure
-  Appl. Math. (2018)
+  Appl. Math. 71 (2018), no. 5, 953-993
   [DOI](https://doi.org/10.1002/cpa.21741)
   [arXiv](https://arxiv.org/abs/1606.04470)
 - Kashlak, A. B., Devane, E., Dietert, H. and Jackson, H. *Markov
   models for ocular fixation locations in the presence and absence of
   colour* Journal of the Royal Statistical Society: Series C (Applied
-  Statistics), 67(1), pp.201–215.
-  [DOI](https://doi.org/10.1111/rssc.12223)
+  Statistics) 67 (2018), no. 1, 201–215.
+  [DOI](https://doi.org/10.1111/rssc.1222)3
   [arXiv](https://arxiv.org/abs/1604.06335)
 - Dietert, H., Keller, J., Troppmann, S. *An invariant class of wave
   packets for the Wigner transform* J. Math. Anal. Appl. 450 (2017),
