@@ -32,7 +32,7 @@ permalink: /publications/
   models for ocular fixation locations in the presence and absence of
   colour* Journal of the Royal Statistical Society: Series C (Applied
   Statistics) 67 (2018), no. 1, 201–215.
-  [DOI](https://doi.org/10.1111/rssc.1222)3
+  [DOI](https://doi.org/10.1111/rssc.12223)
   [arXiv](https://arxiv.org/abs/1604.06335)
 - Dietert, H., Keller, J., Troppmann, S. *An invariant class of wave
   packets for the Wigner transform* J. Math. Anal. Appl. 450 (2017),
