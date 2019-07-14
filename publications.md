@@ -40,15 +40,15 @@ permalink: /publications/
   Jan. 2018.
   [DOI](https://doi.org/10.1002/cpa.21741)
   [arXiv](https://arxiv.org/abs/1606.04470)
-- A.-L. Dalibard, H. Dietert, D. Gérard-Varet, and F. Marbach, “High
+- A.-L. Dalibard, H. Dietert, D. Gérard-Varet, and F. Marbach, *High
   Frequency Analysis of the Unsteady Interactive Boundary Layer
-  Model,” SIAM Journal on Mathematical Analysis, vol. 50, no. 4,
+  Model*, SIAM Journal on Mathematical Analysis, vol. 50, no. 4,
   pp. 4203–4245, Jan. 2018.
   [DOI](https://doi.org/10.1137/17m1157477)
   [arXiv](https://arxiv.org/abs/1710.04510)
-- H. Dietert, J. Evans, and T. Holding, “Contraction in the
+- H. Dietert, J. Evans, and T. Holding, *Contraction in the
   Wasserstein metric for the kinetic Fokker-Planck equation on the
-  torus,” Kinetic & Related Models, vol. 11, no. 6,
+  torus*, Kinetic & Related Models, vol. 11, no. 6,
   pp. 1427–1441, 2018.
   [DOI](https://doi.org/10.3934/krm.2018056)
   [arXiv](http://arxiv.org/abs/1506.06173)
