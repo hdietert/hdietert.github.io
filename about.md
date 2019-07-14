@@ -15,7 +15,9 @@ Publications are listed under the [publication page][pub].
 Positions
 ---------
 
-- Since 2016: Postdoc, Université Paris Diderot, Sorbonne Paris Cité,
+- Since 2018: Chargé de recherche at CNRS. Permanent research
+  position, based at IMJ-PRG, Paris
+- 2016-2018: Postdoc, Université Paris Diderot, Sorbonne Paris Cité,
   France.  Supervised by [David Gérard-Varet][dgv] and [Laurent
   Desvilletes][ld]. Funded by Université Sorbonne Paris Cité, in
   the framework of the "Investissements d'Avenir", convention
