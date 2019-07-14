@@ -5,29 +5,53 @@ permalink: /publications/
 ---
 
 ## Preprints
-
-- Daus, E., Desvillettes, L., Dietert, H.. *About the entropic
-  structure of detailed balanced multi-species cross-diffusion
-  equations*
-  [arXiv](https://arxiv.org/abs/1803.09808)
-- Dietert, H., Fernandez, B. *The mathematics of asymptotic stability in the Kuramoto model*
-  [arXiv](https://arxiv.org/abs/1801.01309)
-- Dalibard, A.-L., Dietert, H., Gérard-Varet, D. and Marbach F.
-  *High frequency analysis of the unsteady Interactive Boundary Layer model*,
-  [arXiv](https://arxiv.org/abs/1710.04510) (submitted)
-- Dietert, H. *Stability of partially locked states in the Kuramoto
+- H. Dietert and R Shvydkoy, *On Cucker-Smale dynamical systems with degenerate communication*
+  [arXiv](https://arxiv.org/abs/1903.00094)
+- H. Dietert, *Stability of partially locked states in the Kuramoto
   model through Landau damping with Sobolev regularity*
   [arXiv](https://arxiv.org/abs/1707.03475) (submitted)
-- Dietert, H., Evans, J. and Holding, T. *Convergence to equilibrium
-  for the kinetic Fokker-Planck equation on the torus*
-  [arXiv](http://arxiv.org/abs/1506.06173) (accepted to Kinet. Relat. Model.)
 
 ## Published
-- Dietert, H., Fernandez, B., Gérard-Varet, D. *Landau damping to
-  partially locked states in the Kuramoto model* Comm. Pure
-  Appl. Math. 71 (2018), no. 5, 953-993
+- F. Coppini, H. Dietert, and G. Giacomin, *A law of large numbers and
+  large deviations for interacting diffusions on Erdős–Rényi graphs*,
+  Stochastics and Dynamics, p. 2050010, Jul. 2019.
+  [DOI](https://doi.org/10.1142/s0219493720500100)
+  [arXiv](https://arxiv.org/abs/1807.10921)
+- H. Dietert and D. Gérard-Varet, *Well-Posedness of the Prandtl
+  Equations Without Any Structural Assumption*, Annals of PDE, vol. 5,
+  no. 1, Mar. 2019.
+  [DOI](https://doi.org/10.1007/s40818-019-0063-6)
+  [arXiv](https://arxiv.org/abs/1809.11004)
+- E. S. Daus, L. Desvillettes, and H. Dietert, *About the entropic
+  structure of detailed balanced multi-species cross-diffusion
+  equations*, Journal of Differential Equations, vol. 266, no. 7,
+  pp. 3861–3882, Mar. 2019.
+  [DOI](https://doi.org/10.4049/jimmunol.1800269)
+  [arXiv](https://arxiv.org/abs/1803.09808)
+- H. Dietert and B. Fernandez, *The mathematics of asymptotic
+  stability in the Kuramoto model*, Proceedings of the Royal Society
+  A: Mathematical, Physical and Engineering Sciences, vol. 474,
+  no. 2220, p. 20180467, Dec. 2018.
+  [DOI](https://doi.org/10.1098/rspa.2018.0467)
+  [arXiv](https://arxiv.org/abs/1801.01309)
+- H. Dietert, B. Fernandez, and D. Gérard-Varet, *Landau Damping to
+  Partially Locked States in the Kuramoto Model*, Communications on
+  Pure and Applied Mathematics, vol. 71, no. 5, pp. 953–993,
+  Jan. 2018.
   [DOI](https://doi.org/10.1002/cpa.21741)
   [arXiv](https://arxiv.org/abs/1606.04470)
+- A.-L. Dalibard, H. Dietert, D. Gérard-Varet, and F. Marbach, “High
+  Frequency Analysis of the Unsteady Interactive Boundary Layer
+  Model,” SIAM Journal on Mathematical Analysis, vol. 50, no. 4,
+  pp. 4203–4245, Jan. 2018.
+  [DOI](https://doi.org/10.1137/17m1157477)
+  [arXiv](https://arxiv.org/abs/1710.04510)
+- H. Dietert, J. Evans, and T. Holding, “Contraction in the
+  Wasserstein metric for the kinetic Fokker-Planck equation on the
+  torus,” Kinetic & Related Models, vol. 11, no. 6,
+  pp. 1427–1441, 2018.
+  [DOI](https://doi.org/10.3934/krm.2018056)
+  [arXiv](http://arxiv.org/abs/1506.06173)
 - Kashlak, A. B., Devane, E., Dietert, H. and Jackson, H. *Markov
   models for ocular fixation locations in the presence and absence of
   colour* Journal of the Royal Statistical Society: Series C (Applied
