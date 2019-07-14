@@ -6,9 +6,10 @@ permalink: /about/
 
 ![Picture of myself](/static/me.png)
 
-I am currently a postdoc under [David Gérard-Varet][dgv] and [Laurent
-Desvilletes][ld]. Before that I obtained my PhD under the supervision
-of [Clément Mouhot][cm] and [Arieh Iserles][ai].
+I am a researcher at the CNRS in Paris. Before that I was a postdoc
+under [David Gérard-Varet][dgv] and [Laurent Desvilletes][ld] and I
+obtained my PhD under the supervision of [Clément Mouhot][cm] and
+[Arieh Iserles][ai].
 
 Publications are listed under the [publication page][pub].
 
