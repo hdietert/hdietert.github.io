@@ -36,7 +36,7 @@ Positions
 [ld]: https://webusers.imj-prg.fr/~laurent.desvillettes/
 [dgv]: https://webusers.imj-prg.fr/~david.gerard-varet/
 [cm]: https://cmouhot.wordpress.com/
-[ai]: http://www.damtp.cam.ac.uk/user/ai/Arieh_Iserles/Arieh_Iserles.html
+[ai]: https://www.damtp.cam.ac.uk/user/ai/Arieh_Iserles/Arieh_Iserles.html
 [pub]: {{ "/publications" | prepend: site.baseurl }}
 [doi-phd]: https://doi.org/10.17863/CAM.7765
 [part-3]: {% post_url 2014-03-12-part-3-essay %}
