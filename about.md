@@ -7,7 +7,7 @@ permalink: /about/
 ![Picture of myself](/static/me.png)
 
 I am a researcher at the CNRS in Paris. Before that I was a postdoc
-under [David Gérard-Varet][dgv] and [Laurent Desvilletes][ld] and I
+under [David Gérard-Varet][dgv] and [Laurent Desvillettes][ld] and I
 obtained my PhD under the supervision of [Clément Mouhot][cm] and
 [Arieh Iserles][ai].
 
