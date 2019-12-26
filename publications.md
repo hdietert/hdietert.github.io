@@ -26,7 +26,7 @@ permalink: /publications/
   structure of detailed balanced multi-species cross-diffusion
   equations*, Journal of Differential Equations, vol. 266, no. 7,
   pp. 3861–3882, Mar. 2019.
-  [DOI](https://doi.org/10.4049/jimmunol.1800269)
+  [DOI](https://doi.org/10.1016/j.jde.2018.09.020)
   [arXiv](https://arxiv.org/abs/1803.09808)
 - H. Dietert and B. Fernandez, *The mathematics of asymptotic
   stability in the Kuramoto model*, Proceedings of the Royal Society
