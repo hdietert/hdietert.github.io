@@ -5,22 +5,24 @@ permalink: /publications/
 ---
 
 ## Preprints
-- H. Dietert, A. Moussa, *Persisting entropy structure for nonlocal cross-diffusion systems*,
+- H. Dietert and J. Evans, *Finding the jump rate for fastest decay in
+  the Goldstein-Taylor model*.
+- H. Dietert, A. Moussa, *Persisting entropy structure for nonlocal cross-diffusion systems*.
   [HAL](https://hal.archives-ouvertes.fr/hal-03103073)
   [arXiv](https://arxiv.org/abs/2101.02893)
 - E. Brocchieri, L. Corrias, H. Dietert and Yong-Jung Kim,
   *Evolution of dietary diversity and a starvation driven cross-diffusion system
-  as its singular limit*,
+  as its singular limit*.
   [HAL](https://hal.archives-ouvertes.fr/hal-03013229)
   [arXiv](https://arxiv.org/abs/2011.10304)
 - H. Dietert, *Stability of partially locked states in the Kuramoto
-  model through Landau damping with Sobolev regularity*
+  model through Landau damping with Sobolev regularity*.
   [arXiv](https://arxiv.org/abs/1707.03475)
 
 ## Published
 - H. Dietert and R. Shvydkoy, *On Cucker-Smale dynamical systems with
   degenerate communication*, Analysis and Applications, Online Ready,
-  2020
+  2020.
   [DOI](https://doi.org/10.1142/S0219530520500050)
   [arXiv](https://arxiv.org/abs/1903.00094)
 - F. Coppini, H. Dietert, and G. Giacomin, *A law of large numbers and
