@@ -7,6 +7,8 @@ permalink: /publications/
 ## Preprints
 - H. Dietert and J. Evans, *Finding the jump rate for fastest decay in
   the Goldstein-Taylor model*.
+  [HAL](https://hal.archives-ouvertes.fr/hal-03171498)
+  [arXiv](https://arxiv.org/abs/2103.10064)
 - H. Dietert, A. Moussa, *Persisting entropy structure for nonlocal cross-diffusion systems*.
   [HAL](https://hal.archives-ouvertes.fr/hal-03103073)
   [arXiv](https://arxiv.org/abs/2101.02893)
