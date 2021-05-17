@@ -5,6 +5,9 @@ permalink: /publications/
 ---
 
 ## Preprints
+- H. Dietert and D. Gérard-Varet, *On the ill-posedness of the triple deck model*.
+  [HAL](https://hal.archives-ouvertes.fr/hal-00674093v)
+  [arXiv](https://arxiv.org/abs/2105.02053)
 - H. Dietert and J. Evans, *Finding the jump rate for fastest decay in
   the Goldstein-Taylor model*.
   [HAL](https://hal.archives-ouvertes.fr/hal-03171498)
