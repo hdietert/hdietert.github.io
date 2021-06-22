@@ -12,8 +12,7 @@ obtained my PhD under the supervision of [Clément Mouhot][cm] and
 [Arieh Iserles][ai].
 
 Currently, I am on leave from the CNRS and are visiting professor at
-the [institute of mathematics of the University of
-Leipzig][https://www.math.uni-leipzig.de/].
+the [institute of mathematics of the University of Leipzig][ul].
 
 Publications are listed under the [publication page][pub].
 
@@ -46,3 +45,4 @@ Positions
 [pub]: {{ "/publications" | prepend: site.baseurl }}
 [doi-phd]: https://doi.org/10.17863/CAM.7765
 [part-3]: {% post_url 2014-03-12-part-3-essay %}
+[ul]: https://www.math.uni-leipzig.de/
