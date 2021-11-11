@@ -15,16 +15,19 @@ permalink: /publications/
 - H. Dietert, A. Moussa, *Persisting entropy structure for nonlocal cross-diffusion systems*.
   [HAL](https://hal.archives-ouvertes.fr/hal-03103073)
   [arXiv](https://arxiv.org/abs/2101.02893)
-- E. Brocchieri, L. Corrias, H. Dietert and Yong-Jung Kim,
-  *Evolution of dietary diversity and a starvation driven cross-diffusion system
-  as its singular limit*.
-  [HAL](https://hal.archives-ouvertes.fr/hal-03013229)
-  [arXiv](https://arxiv.org/abs/2011.10304)
 - H. Dietert, *Stability of partially locked states in the Kuramoto
   model through Landau damping with Sobolev regularity*.
   [arXiv](https://arxiv.org/abs/1707.03475)
 
 ## Published
+- E. Brocchieri, L. Corrias, H. Dietert and Yong-Jung Kim,
+  *Evolution of dietary diversity and a starvation driven cross-diffusion system
+  as its singular limit*,
+  Journal of Mathematical Biology,
+  2021.
+  [DOI](https://doi.org/10.1007/s00285-021-01679-y)
+  [HAL](https://hal.archives-ouvertes.fr/hal-03013229)
+  [arXiv](https://arxiv.org/abs/2011.10304)
 - H. Dietert and R. Shvydkoy, *On Cucker-Smale dynamical systems with
   degenerate communication*, Analysis and Applications, Online Ready,
   2020.
@@ -32,8 +35,7 @@ permalink: /publications/
   [arXiv](https://arxiv.org/abs/1903.00094)
 - F. Coppini, H. Dietert, and G. Giacomin, *A law of large numbers and
   large deviations for interacting diffusions on Erdős–Rényi graphs*,
-  Stochastics and Dynamics, vol. 20, no. 2, pp. ,19, 2020
-  Stochastics and Dynamics, p. 2050010, Jul. 2019.
+  Stochastics and Dynamics, vol. 20, no. 2, id. 2050010, 2020.
   [DOI](https://doi.org/10.1142/s0219493720500100)
   [arXiv](https://arxiv.org/abs/1807.10921)
 - H. Dietert and D. Gérard-Varet, *Well-Posedness of the Prandtl
