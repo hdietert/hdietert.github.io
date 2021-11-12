@@ -29,8 +29,8 @@ permalink: /publications/
   [HAL](https://hal.archives-ouvertes.fr/hal-03013229)
   [arXiv](https://arxiv.org/abs/2011.10304)
 - H. Dietert and R. Shvydkoy, *On Cucker-Smale dynamical systems with
-  degenerate communication*, Analysis and Applications, Online Ready,
-  2020.
+  degenerate communication*,
+  Analysis and Applications (Singapore), vol. 19, no. 4, pp. 551-573, 2021.
   [DOI](https://doi.org/10.1142/S0219530520500050)
   [arXiv](https://arxiv.org/abs/1903.00094)
 - F. Coppini, H. Dietert, and G. Giacomin, *A law of large numbers and
