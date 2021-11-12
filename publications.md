@@ -23,7 +23,7 @@ permalink: /publications/
 - E. Brocchieri, L. Corrias, H. Dietert and Yong-Jung Kim,
   *Evolution of dietary diversity and a starvation driven cross-diffusion system
   as its singular limit*,
-  Journal of Mathematical Biology,
+  Journal of Mathematical Biology, vol. 83,
   2021.
   [DOI](https://doi.org/10.1007/s00285-021-01679-y)
   [HAL](https://hal.archives-ouvertes.fr/hal-03013229)
