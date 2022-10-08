@@ -16,7 +16,7 @@ permalink: /publications/
   [arXiv](https://arxiv.org/abs/2208.00947)
 - H. Dietert, A. Moussa, *Persisting entropy structure for nonlocal
   cross-diffusion systems*.
-  (accepted to /Annales de la Faculté des sciences de Toulouse/)
+  (accepted to *Annales de la Faculté des sciences de Toulouse*)
   [HAL](https://hal.archives-ouvertes.fr/hal-03103073)
   [arXiv](https://arxiv.org/abs/2101.02893)
 - H. Dietert, *Stability of partially locked states in the Kuramoto
