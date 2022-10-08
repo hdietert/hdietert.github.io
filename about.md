@@ -11,8 +11,9 @@ under [David Gérard-Varet][dgv] and [Laurent Desvillettes][ld] and I
 obtained my PhD under the supervision of [Clément Mouhot][cm] and
 [Arieh Iserles][ai].
 
-Currently, I am on leave from the CNRS and are visiting professor at
-the [institute of mathematics of the University of Leipzig][ul].
+During the academic year 2020/21, I was on leave from the CNRS and are
+visiting professor at the [institute of mathematics of the University
+of Leipzig][ul].
 
 Publications are listed under the [publication page][pub].
 
