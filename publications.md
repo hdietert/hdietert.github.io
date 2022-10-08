@@ -5,14 +5,18 @@ permalink: /publications/
 ---
 
 ## Preprints
-- H. Dietert and D. Gérard-Varet, *On the ill-posedness of the triple deck model*.
-  [HAL](https://hal.archives-ouvertes.fr/hal-03216356)
-  [arXiv](https://arxiv.org/abs/2105.02053)
-- H. Dietert and J. Evans, *Finding the jump rate for fastest decay in
-  the Goldstein-Taylor model*.
-  [HAL](https://hal.archives-ouvertes.fr/hal-03171498)
-  [arXiv](https://arxiv.org/abs/2103.10064)
-- H. Dietert, A. Moussa, *Persisting entropy structure for nonlocal cross-diffusion systems*.
+- H. Dietert, F. Hérau, H. Hutridurga, and C. Mouhot,
+  *Quantitative Geometric Control in Linear Kinetic Theory*,
+  [arXiv](https://arxiv.org/abs/2209.09340)
+- H. Dietert and J. Hirsch
+  *Regularity for rough hypoelliptic equations*,
+  [arXiv](https://arxiv.org/abs/2209.08077)
+- C. Collot, H. Dietert, and P. Germain,
+  *Stability and cascades for the Kolmogorov-Zakharov spectrum of wave turbulence*.
+  [arXiv](https://arxiv.org/abs/2208.00947)
+- H. Dietert, A. Moussa, *Persisting entropy structure for nonlocal
+  cross-diffusion systems*. (accepted to /Annales de la Faculté des
+  sciences de Toulouse/)
   [HAL](https://hal.archives-ouvertes.fr/hal-03103073)
   [arXiv](https://arxiv.org/abs/2101.02893)
 - H. Dietert, *Stability of partially locked states in the Kuramoto
@@ -20,6 +24,17 @@ permalink: /publications/
   [arXiv](https://arxiv.org/abs/1707.03475)
 
 ## Published
+- H. Dietert and D. Gérard-Varet, *On the ill-posedness of the triple deck model*,
+  SIAM J. Math. Anal. 54, No. 2, 2611-2633, 2022.
+  [DOI](https://doi.org/10.1137/21M1427401)
+  [HAL](https://hal.archives-ouvertes.fr/hal-03216356)
+  [arXiv](https://arxiv.org/abs/2105.02053)
+- H. Dietert and J. Evans, *Finding the jump rate for fastest decay in
+  the Goldstein-Taylor model*,
+  J. Stat. Phys. 188, No. 1, 2022.
+  [DOI](https://doi.org/10.1007/s10955-022-02925-3)
+  [HAL](https://hal.archives-ouvertes.fr/hal-03171498)
+  [arXiv](https://arxiv.org/abs/2103.10064)
 - E. Brocchieri, L. Corrias, H. Dietert and Yong-Jung Kim,
   *Evolution of dietary diversity and a starvation driven cross-diffusion system
   as its singular limit*,
