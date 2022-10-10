@@ -14,6 +14,9 @@ permalink: /publications/
 - C. Collot, H. Dietert, and P. Germain,
   *Stability and cascades for the Kolmogorov-Zakharov spectrum of wave turbulence*.
   [arXiv](https://arxiv.org/abs/2208.00947)
+- M. Coti-Zelati, H. Dietert, D. Gérard-Varet,
+  *Orientation mixing in active suspensions*
+  [arXiv](https://arxiv.org/abs/2207.08431)
 - H. Dietert, A. Moussa, *Persisting entropy structure for nonlocal
   cross-diffusion systems*.
   (accepted to *Annales de la Faculté des sciences de Toulouse*)
