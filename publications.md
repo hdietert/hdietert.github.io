@@ -27,6 +27,12 @@ permalink: /publications/
   [arXiv](https://arxiv.org/abs/1707.03475)
 
 ## Published
+- H. Dietert; F. Hérau; H. Hutridurga and C. Mouhot,
+  *Trajectorial hypocoercivity and application to control theory,*
+  Sémin. Laurent Schwartz, EDP Appl., Talk no. 8, 2022.
+  [DOI](https://doi.org/10.5802/slsedp.156)
+  [HAL](https://hal.archives-ouvertes.fr/hal-03852983)
+  [arXiv](https://arxiv.org/abs/2210.13893)
 - H. Dietert and D. Gérard-Varet, *On the ill-posedness of the triple deck model*,
   SIAM J. Math. Anal. 54, No. 2, 2611-2633, 2022.
   [DOI](https://doi.org/10.1137/21M1427401)
