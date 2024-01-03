@@ -5,6 +5,9 @@ permalink: /publications/
 ---
 
 ## Preprints
+- H. Dietert,
+  *L2-Hypocoercivity for non-equilibrium kinetic equations,*
+  [arXiv](https://arxiv.org/abs/2310.13456)
 - H. Dietert, F. Hérau, H. Hutridurga, and C. Mouhot,
   *Quantitative Geometric Control in Linear Kinetic Theory*,
   [arXiv](https://arxiv.org/abs/2209.09340)
@@ -14,9 +17,6 @@ permalink: /publications/
 - C. Collot, H. Dietert, and P. Germain,
   *Stability and cascades for the Kolmogorov-Zakharov spectrum of wave turbulence*.
   [arXiv](https://arxiv.org/abs/2208.00947)
-- M. Coti-Zelati, H. Dietert, D. Gérard-Varet,
-  *Orientation mixing in active suspensions*
-  [arXiv](https://arxiv.org/abs/2207.08431)
 - H. Dietert, A. Moussa, *Persisting entropy structure for nonlocal
   cross-diffusion systems*.
   (accepted to *Annales de la Faculté des sciences de Toulouse*)
@@ -27,6 +27,12 @@ permalink: /publications/
   [arXiv](https://arxiv.org/abs/1707.03475)
 
 ## Published
+- M. Coti-Zelati, H. Dietert, D. Gérard-Varet,
+  *Orientation mixing in active suspensions,*
+  Ann. PDE 9, No. 2, Paper No. 20, 53 p., 2023.
+  [DOI](https://doi.org/10.1007/s40818-023-00163-8)
+  [HAL](https://hal.science/hal-03723452)
+  [arXiv](https://arxiv.org/abs/2207.08431)
 - H. Dietert; F. Hérau; H. Hutridurga and C. Mouhot,
   *Trajectorial hypocoercivity and application to control theory,*
   Sémin. Laurent Schwartz, EDP Appl., Talk no. 8, 2022.
