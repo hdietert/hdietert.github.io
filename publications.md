@@ -5,6 +5,9 @@ permalink: /publications/
 ---
 
 ## Preprints
+- F. Anceschi, H. Dietert, J. Guerand, A. Loher; C. Mouhot; A. Rebucci,
+  *Poincaré inequality and quantitative De Giorgi method for hypoelliptic operators,*
+  [arXiv](https://arxiv.org/abs/2401.12194)
 - H. Dietert,
   *L2-Hypocoercivity for non-equilibrium kinetic equations,*
   [arXiv](https://arxiv.org/abs/2310.13456)
@@ -14,9 +17,6 @@ permalink: /publications/
 - H. Dietert and J. Hirsch
   *Regularity for rough hypoelliptic equations*,
   [arXiv](https://arxiv.org/abs/2209.08077)
-- C. Collot, H. Dietert, and P. Germain,
-  *Stability and cascades for the Kolmogorov-Zakharov spectrum of wave turbulence*.
-  [arXiv](https://arxiv.org/abs/2208.00947)
 - H. Dietert, A. Moussa, *Persisting entropy structure for nonlocal
   cross-diffusion systems*.
   (accepted to *Annales de la Faculté des sciences de Toulouse*)
@@ -27,6 +27,11 @@ permalink: /publications/
   [arXiv](https://arxiv.org/abs/1707.03475)
 
 ## Published
+- C. Collot, H. Dietert, and P. Germain,
+  *Stability and cascades for the Kolmogorov-Zakharov spectrum of wave turbulence,*
+  Arch. Ration. Mech. Anal. 248, No. 1, Paper No. 7, 31 p., 2024.
+  [DOI](https://doi.org/10.1007/s00205-023-01953-x)
+  [arXiv](https://arxiv.org/abs/2208.00947)
 - M. Coti-Zelati, H. Dietert, D. Gérard-Varet,
   *Orientation mixing in active suspensions,*
   Ann. PDE 9, No. 2, Paper No. 20, 53 p., 2023.
