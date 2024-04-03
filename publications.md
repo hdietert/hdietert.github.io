@@ -5,7 +5,10 @@ permalink: /publications/
 ---
 
 ## Preprints
-- F. Anceschi, H. Dietert, J. Guerand, A. Loher; C. Mouhot; A. Rebucci,
+- M. Coti-Zelati, H. Dietert, D. Gérard-Varet,
+  *Nonlinear stability for active suspensions,*
+  [arXiv](https://arxiv.org/abs/2404.01906)
+- F. Anceschi, H. Dietert, J. Guerand, A. Loher, C. Mouhot, A. Rebucci,
   *Poincaré inequality and quantitative De Giorgi method for hypoelliptic operators,*
   [arXiv](https://arxiv.org/abs/2401.12194)
 - H. Dietert,
