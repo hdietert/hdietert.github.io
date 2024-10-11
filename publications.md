@@ -20,16 +20,17 @@ permalink: /publications/
 - H. Dietert and J. Hirsch
   *Regularity for rough hypoelliptic equations*,
   [arXiv](https://arxiv.org/abs/2209.08077)
-- H. Dietert, A. Moussa, *Persisting entropy structure for nonlocal
-  cross-diffusion systems*.
-  (accepted to *Annales de la Faculté des sciences de Toulouse*)
-  [HAL](https://hal.archives-ouvertes.fr/hal-03103073)
-  [arXiv](https://arxiv.org/abs/2101.02893)
 - H. Dietert, *Stability of partially locked states in the Kuramoto
   model through Landau damping with Sobolev regularity*.
   [arXiv](https://arxiv.org/abs/1707.03475)
 
 ## Published
+- H. Dietert, A. Moussa, *Persisting entropy structure for nonlocal
+  cross-diffusion systems,*
+  Ann. Fac. Sci. Toulouse, Math. (6) 33, No. 1, 69-104, 2024. 
+  [DOI](https://dx.doi.org/10.5802/afst.1762)
+  [HAL](https://hal.archives-ouvertes.fr/hal-03103073)
+  [arXiv](https://arxiv.org/abs/2101.02893)
 - C. Collot, H. Dietert, and P. Germain,
   *Stability and cascades for the Kolmogorov-Zakharov spectrum of wave turbulence,*
   Arch. Ration. Mech. Anal. 248, No. 1, Paper No. 7, 31 p., 2024.
